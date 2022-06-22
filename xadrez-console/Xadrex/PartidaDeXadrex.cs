@@ -11,6 +11,7 @@ namespace xadrez_console.Xadrex
         public Tabuleiro tab { get; private set; } 
         private int turno;
         private Cor jogadorAtual;
+        public bool terminada {get; private set; }
 
 
         public PartidaDeXadrex()
@@ -18,6 +19,7 @@ namespace xadrez_console.Xadrex
             tab = new Tabuleiro(8, 8);
             turno = 1;
             jogadorAtual = Cor.Branca;
+            terminada = false; 
             colocarPecas();
         }
 

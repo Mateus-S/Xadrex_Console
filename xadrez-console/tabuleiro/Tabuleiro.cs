@@ -3,7 +3,7 @@ using xadrez_console.tabuleiro;
 
 namespace xadrez_console
 {
-    public class Tabuleiro
+    public class Tabuleiro 
     {
         public int linhas { get; set; }
         public int colunas { get; set; }
