@@ -45,7 +45,7 @@ namespace xadrez_console.Xadrex
             }
 
             // abaixo
-            pos.definirValores(posicao.linha - 1, posicao.coluna);
+            pos.definirValores(posicao.linha + 1, posicao.coluna);
 
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
