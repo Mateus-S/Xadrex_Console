@@ -19,6 +19,7 @@ namespace xadrez_console
                     try
                     {
                         {
+                            Console.SetBufferSize(1,1);
                             Console.Clear();
                             Tela.imprimirPartida(partida);
                             Console.WriteLine();
